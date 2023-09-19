@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/portfolio/static/css/main.81306e5d.css",
+    "main.js": "/portfolio/static/js/main.bbe3ce55.js",
+    "static/js/787.1ed0c42c.chunk.js": "/portfolio/static/js/787.1ed0c42c.chunk.js",
+    "static/media/Problem solving-bro2.png": "/portfolio/static/media/Problem solving-bro2.14e26598e69741178e4e.png",
+    "static/media/Questions-bro.png": "/portfolio/static/media/Questions-bro.cfd4bbd5ba75aaa17129.png",
+    "static/media/portfolio3.jpg": "/portfolio/static/media/portfolio3.8186df376b322a283488.jpg",
+    "static/media/portfolio5.jpg": "/portfolio/static/media/portfolio5.80291050be88a205c33f.jpg",
+    "static/media/portfolio2.jpg": "/portfolio/static/media/portfolio2.b125d1148fc72d7d00a3.jpg",
+    "static/media/portfolio4.jpg": "/portfolio/static/media/portfolio4.eaddd3f1956ae7b3ac39.jpg",
+    "static/media/portfolio6.jpg": "/portfolio/static/media/portfolio6.cfffe2ca4e775e909071.jpg",
+    "static/media/portfolio1.jpg": "/portfolio/static/media/portfolio1.b65d3404bdcc4ee8a852.jpg",
+    "index.html": "/portfolio/index.html",
+    "main.81306e5d.css.map": "/portfolio/static/css/main.81306e5d.css.map",
+    "main.bbe3ce55.js.map": "/portfolio/static/js/main.bbe3ce55.js.map",
+    "787.1ed0c42c.chunk.js.map": "/portfolio/static/js/787.1ed0c42c.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.81306e5d.css",
+    "static/js/main.bbe3ce55.js"
+  ]
+}
