@@ -17,7 +17,7 @@
 body {
   position: relative;
   display: flex;
-  background-color: var(--bg-color);
+  background-color: #1f242d;
 }
 html {
   font-size: 62.5%;
@@ -629,13 +629,18 @@ html {
     justify-content: center;
     align-items: center;
   }
+
+  .portfolio .container {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 2.5rem;
+  }
+ 
 }
 
 /* mobile  */
 @media screen and (max-width: 767px) {
   .portfolio {
     padding: 4vh 0;
-    width: 100%;
   }
   .foot {
     width: 100%;
@@ -645,6 +650,16 @@ html {
   }
   .portfolio-box:hover .layer {
     visibility: visible;
+  }
+  .portfolio .container {
+    grid-template-columns: repeat(1, 1fr);
+    gap: 2.5rem;
+  }
+}
+
+@media screen and (max-width:315px) {
+  .portfolio {
+    width: 100%;
   }
 }
 
@@ -769,15 +784,18 @@ form textarea {
   form textarea {
     resize: none;
     width: fit-content;
-    height: 10rem;
+    height: 12rem;
     display: block;
     margin: inherit;
   }
   .contact {
     padding: 4vh 0;
     width: 100%;
+    height: 100vh;
   }
+
 }
+
 
 /* --footer-- */
 
