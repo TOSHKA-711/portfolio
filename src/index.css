@@ -408,7 +408,7 @@ html {
   align-items: center !important;
   justify-content: center;
   flex-direction: column;
-  /* height: 90vh; */
+ padding-bottom: 5vh;
 }
 .services h2 {
   font-size: 5rem;
