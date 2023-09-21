@@ -249,8 +249,13 @@ html {
     display: flex;
     justify-content: center;
     align-items: center;
-    /* width: 100%; */
   }
+
+   .home-text{
+    width: 100%;
+   }
+  
+}
   .multiple-text::before {
     animation: none;
     -webkit-animation: none;
@@ -259,7 +264,7 @@ html {
   #navbar {
     width: 100%;
   }
-}
+
 
 @media screen and (max-width: 465px) {
   .foot {

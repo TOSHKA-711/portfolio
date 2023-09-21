@@ -35,7 +35,7 @@ function Home() {
       <div className="home">
         <div className="container">
           <div className="row parent">
-            <div className="col col-7 text home-text">
+            <div className=" text home-text">
           
               
               <h3>Hello,It's Me</h3>
