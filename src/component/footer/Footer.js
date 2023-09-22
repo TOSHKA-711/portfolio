@@ -1,11 +1,13 @@
+/* eslint-disable jsx-a11y/anchor-is-valid */
+/* eslint-disable react/jsx-no-target-blank */
 /* eslint-disable jsx-a11y/alt-text */
 import React from "react";
 import "./Footer.css"
-import { BsFacebook } from "react-icons/bs";
-import { BsTwitter } from "react-icons/bs";
+import { FaFacebookF } from "react-icons/fa";
+import { CiTwitter } from "react-icons/ci";
 import { BsYoutube } from "react-icons/bs";
-import { BsLinkedin } from "react-icons/bs";
-import { BsInstagram } from "react-icons/bs";
+import {FaLinkedinIn  } from "react-icons/fa";
+import {BsInstagram } from "react-icons/bs";
 
 const Footer = () => {
   return (
@@ -14,19 +16,29 @@ const Footer = () => {
         <div className="parent">
           <ul className="list-icons">
             <li>
-              <BsFacebook className="icon"/>
+               <a href="https://www.facebook.com/profile.php?id=100027173224339&mibextid=ZbWKwL" target="_blank">
+                  <FaFacebookF />
+                </a>
             </li>
             <li>
-              <BsTwitter  className="icon" />
+            <a href="https://twitter.com/aliovich711" target="_blank">
+                  <CiTwitter />
+                </a>
             </li>
             <li>
+            <a href="#">
               <BsYoutube className="icon"/>
+            </a>
             </li>
             <li>
-              <BsLinkedin className="icon"/>
+            <a href="https://www.linkedin.com/in/ali-eldin-mostafa-a3a8b628b" target="_blank">
+                  <FaLinkedinIn />
+                </a>
             </li>
             <li>
-              <BsInstagram className="icon"/>
+            <a href="https://instagram.com/ali_toshka7?igshid=MzRlODBiNWFlZA==" target="_blank">
+                  <BsInstagram />
+                </a>
             </li>
           </ul>
           <p> ©2023 All rights reserved. Created by T0SHKA</p>

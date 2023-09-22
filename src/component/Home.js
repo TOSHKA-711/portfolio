@@ -1,3 +1,4 @@
+/* eslint-disable react/jsx-no-target-blank */
 /* eslint-disable no-unused-vars */
 /* eslint-disable jsx-a11y/alt-text */
 /* eslint-disable jsx-a11y/anchor-is-valid */
@@ -35,7 +36,7 @@ function Home() {
       <div className="home">
         <div className="container">
           <div className="row parent">
-            <div className=" text home-text">
+            <div className="col  text home-text">
           
               
               <h3>Hello,It's Me</h3>
@@ -51,16 +52,16 @@ function Home() {
                 accusantium eos veniam obcaecati?
               </p>
               <div className="icons">
-                <a href="#">
+                <a href="https://www.facebook.com/profile.php?id=100027173224339&mibextid=ZbWKwL" target="_blank">
                   <FaFacebookF />
                 </a>
-                <a href="#">
+                <a href="https://twitter.com/aliovich711" target="_blank">
                   <CiTwitter />
                 </a>
-                <a href="#">
+                <a href="https://instagram.com/ali_toshka7?igshid=MzRlODBiNWFlZA==" target="_blank">
                   <BsInstagram />
                 </a>
-                <a href="#">
+                <a href="https://www.linkedin.com/in/ali-eldin-mostafa-a3a8b628b" target="_blank">
                   <FaLinkedinIn />
                 </a>
               </div>

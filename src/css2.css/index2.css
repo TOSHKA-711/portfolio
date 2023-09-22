@@ -17,7 +17,7 @@
 body {
   position: relative;
   display: flex;
-  background-color: #1f242d;
+  background-color: var(--bg-color);
 }
 html {
   font-size: 62.5%;
@@ -170,7 +170,6 @@ html {
   -webkit-animation: floatImage 4s infinite ease-in-out;
 }
 
-
 @keyframes floatImage {
   0% {
     transform: translateY(0);
@@ -250,13 +249,8 @@ html {
     display: flex;
     justify-content: center;
     align-items: center;
+    /* width: 100%; */
   }
-
-   .home-text{
-    width: 100%;
-   }
-  
-}
   .multiple-text::before {
     animation: none;
     -webkit-animation: none;
@@ -265,7 +259,7 @@ html {
   #navbar {
     width: 100%;
   }
-
+}
 
 @media screen and (max-width: 465px) {
   .foot {
@@ -414,7 +408,7 @@ html {
   align-items: center !important;
   justify-content: center;
   flex-direction: column;
- padding-bottom: 5vh;
+  /* height: 90vh; */
 }
 .services h2 {
   font-size: 5rem;
@@ -635,18 +629,13 @@ html {
     justify-content: center;
     align-items: center;
   }
-
-  .portfolio .container {
-    grid-template-columns: repeat(2, 1fr);
-    gap: 2.5rem;
-  }
- 
 }
 
 /* mobile  */
 @media screen and (max-width: 767px) {
   .portfolio {
     padding: 4vh 0;
+    width: 100%;
   }
   .foot {
     width: 100%;
@@ -657,23 +646,13 @@ html {
   .portfolio-box:hover .layer {
     visibility: visible;
   }
-  .portfolio .container {
-    grid-template-columns: repeat(1, 1fr);
-    gap: 2.5rem;
-  }
-}
-
-@media screen and (max-width:315px) {
-  .portfolio {
-    width: 100%;
-  }
 }
 
 /* --contact-- */
 
 .contact {
   background: var(--bg-color);
-   width: 100vw;
+  height: 100vh;
   padding-top: 10vh;
 }
 
@@ -790,18 +769,15 @@ form textarea {
   form textarea {
     resize: none;
     width: fit-content;
-    height: 12rem;
+    height: 10rem;
     display: block;
     margin: inherit;
   }
   .contact {
     padding: 4vh 0;
     width: 100%;
-    height: 100vh;
   }
-
 }
-
 
 /* --footer-- */
 
@@ -815,7 +791,7 @@ form textarea {
   align-items: center;
 }
 
-.parent ul li a{
+.parent ul li {
   width: 4rem;
   height: 4rem;
   background: transparent;
@@ -837,7 +813,7 @@ form textarea {
   -ms-transition: 0.5s ease;
   -o-transition: 0.5s ease;
 }
-.parent ul li:hover a{
+.parent ul li:hover {
   background-color: var(--main-color);
   color: var(--second-bg-color);
   box-shadow: 0 0 1rem var(--main-color);
