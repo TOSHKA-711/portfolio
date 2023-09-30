@@ -225,11 +225,7 @@ html {
     justify-content: center;
     align-items: center;
   }
-  .multiple-text::before {
-    animation: none;
-    -webkit-animation: none;
-    display: none;
-  }
+
 }
 
 /* mobile  */
@@ -257,11 +253,7 @@ html {
    }
   
 }
-  .multiple-text::before {
-    animation: none;
-    -webkit-animation: none;
-    display: none;
-  }
+
   #navbar {
     width: 100%;
   }
@@ -278,10 +270,17 @@ html {
   }
 }
 
-.multiple-text {
+@media screen and (max-width:470px) {
+  .multiple-text::before {
+    animation: none;
+    -webkit-animation: none;
+    display: none;
+  }
+}
+.home-text .multiple .multiple-text {
   position: relative;
 }
-.multiple-text::before {
+.home-text .multiple .multiple-text::before {
   content: "";
   width: 100%;
   height: 100%;

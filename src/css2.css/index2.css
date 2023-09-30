@@ -224,6 +224,9 @@ html {
     justify-content: center;
     align-items: center;
   }
+
+}
+@media screen and (max-width:500px) {
   .multiple-text::before {
     animation: none;
     -webkit-animation: none;
@@ -251,11 +254,11 @@ html {
     align-items: center;
     /* width: 100%; */
   }
-  .multiple-text::before {
+  /* .multiple-text::before {
     animation: none;
     -webkit-animation: none;
     display: none;
-  }
+  } */
   #navbar {
     width: 100%;
   }

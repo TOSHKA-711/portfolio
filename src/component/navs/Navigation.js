@@ -11,11 +11,6 @@ const Navigation = () => {
     e.target.classList.toggle("active");
   }
 
-  // let element =document.querySelectorAll(".li");
-   
-                
-
-
     return (
     <>
       <Navbar expand="lg" id="navbar">
@@ -29,19 +24,19 @@ const Navigation = () => {
             <Navbar.Toggle aria-controls="basic-navbar-nav" />
             <Navbar.Collapse id="basic-navbar-nav">
               <Nav className="me-auto list" id="list">
-                <Link to="/" className="li" onClick={handleClick}>
+                <Link to="/" className="li nav1" onClick={handleClick} id="myButton">
                   Home
                 </Link>
-                <Link to="/about" className="li" onClick={handleClick}>
+                <Link to="/about" className="li nav2" onClick={handleClick} id="myButton">
                   About
                 </Link>
-                <Link to="/services" className="li" onClick={handleClick}>
+                <Link to="/services" className="li nav3" onClick={handleClick} id="myButton">
                   Services
                 </Link>
-                <Link to="/portfolio" className="li" onClick={handleClick}>
+                <Link to="/portfolio" className="li nav4" onClick={handleClick} id="myButton">
                   Portfolio
                 </Link>
-                <Link to="/contact" className="li" onClick={handleClick}>
+                <Link to="/contact" className="li nav5" onClick={handleClick} id="myButton">
                   Contact
                 </Link>
               </Nav>

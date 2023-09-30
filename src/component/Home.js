@@ -23,13 +23,16 @@ function Home() {
   ScrollReveal().reveal(" col-5 , .home-image", { origin: "bottom" });
   ScrollReveal().reveal(" .rev-left", { origin: "left" });
 
-  const typed = new Typed(".multiple", {
-    strings: ["Frontend Developer", "Designer", "Blogger"],
-    typeSpeed: 100,
-    backDelay: 1000,
-    backSpeed: 100,
-    loop: true,
-  });
+  // const typed = new Typed(".multiple", {
+  //   strings: ["Frontend Developer", "Designer", "Blogger"],
+  //   typeSpeed: 100,
+  //   backDelay: 1000,
+  //   backSpeed: 100,
+  //   loop: true,
+  // });
+
+
+
 
   return (
     <>
@@ -65,7 +68,7 @@ function Home() {
                   <FaLinkedinIn />
                 </a>
               </div>
-              <button className="btn download">Download Cv</button>
+              <button className="btn download" >Download Cv</button>
             </div>
          
             <div className="col col-5 home-image">

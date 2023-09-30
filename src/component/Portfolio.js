@@ -1,3 +1,5 @@
+/* eslint-disable jsx-a11y/anchor-is-valid */
+/* eslint-disable react/jsx-no-target-blank */
 /* eslint-disable jsx-a11y/alt-text */
 import React from "react";
 import photo1 from "../imgs/portfolio1.jpg";
@@ -33,45 +35,45 @@ function Portfolio() {
         <div className="portfolio-box">
           <img src={photo1}></img>
           <div className="layer">
-            <h4>Web Design</h4>
+            <h4>LEON template</h4>
             <p>
               Lorem ipsum dolor sit amet consectetur adipisicing elit.
               Necessitatibus, odit!
             </p>
-            <a><FaWpexplorer className="icon"/></a>
+            <a href="https://toshka-711.github.io/leon-template/" target="_blank"><FaWpexplorer className="icon"/></a>
           </div>
         </div>
         <div className="portfolio-box">
           <img src={photo2}></img>
           <div className="layer">
-            <h4>Web Design</h4>
+            <h4>FOODERA template</h4>
             <p>
               Lorem ipsum dolor sit amet consectetur adipisicing elit.
               Necessitatibus, odit!
             </p>
-            <a><FaWpexplorer className="icon"/></a>
+            <a href="https://toshka-711.github.io/foodera/" target="_blank"><FaWpexplorer className="icon"/></a>
           </div>
         </div>
         <div className="portfolio-box">
           <img src={photo3}></img>
           <div className="layer">
-            <h4>Web Design</h4>
+            <h4>APPLE</h4>
             <p>
               Lorem ipsum dolor sit amet consectetur adipisicing elit.
               Necessitatibus, odit!
             </p>
-            <a><FaWpexplorer className="icon"/></a>
+            <a href="https://toshka-711.github.io/apple/" target="-blank"><FaWpexplorer className="icon"/></a>
           </div>
         </div>
         <div className="portfolio-box">
           <img src={photo4}></img>
           <div className="layer">
-            <h4>Web Design</h4>
+            <h4>CALCULATOR</h4>
             <p>
               Lorem ipsum dolor sit amet consectetur adipisicing elit.
               Necessitatibus, odit!
             </p>
-            <a><FaWpexplorer className="icon"/></a>
+            <a href="https://toshka-711.github.io/calculator/" target="_blank"><FaWpexplorer className="icon"/></a>
           </div>
         </div>
         <div className="portfolio-box">
