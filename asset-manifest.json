@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.77b91c3b.css",
-    "main.js": "/portfolio/static/js/main.383c9de7.js",
+    "main.css": "/portfolio/static/css/main.197464be.css",
+    "main.js": "/portfolio/static/js/main.22eec491.js",
     "static/js/787.1ed0c42c.chunk.js": "/portfolio/static/js/787.1ed0c42c.chunk.js",
     "static/media/Problem solving-bro2.png": "/portfolio/static/media/Problem solving-bro2.14e26598e69741178e4e.png",
     "static/media/Questions-bro.png": "/portfolio/static/media/Questions-bro.cfd4bbd5ba75aaa17129.png",
@@ -12,12 +12,12 @@
     "static/media/portfolio6.jpg": "/portfolio/static/media/portfolio6.cfffe2ca4e775e909071.jpg",
     "static/media/portfolio1.jpg": "/portfolio/static/media/portfolio1.b65d3404bdcc4ee8a852.jpg",
     "index.html": "/portfolio/index.html",
-    "main.77b91c3b.css.map": "/portfolio/static/css/main.77b91c3b.css.map",
-    "main.383c9de7.js.map": "/portfolio/static/js/main.383c9de7.js.map",
+    "main.197464be.css.map": "/portfolio/static/css/main.197464be.css.map",
+    "main.22eec491.js.map": "/portfolio/static/js/main.22eec491.js.map",
     "787.1ed0c42c.chunk.js.map": "/portfolio/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.77b91c3b.css",
-    "static/js/main.383c9de7.js"
+    "static/css/main.197464be.css",
+    "static/js/main.22eec491.js"
   ]
 }
