@@ -10,6 +10,7 @@ import { FaLinkedinIn } from "react-icons/fa";
 import image from "../imgs/Problem solving-bro2.png";
 import Footer from "./footer/Footer";
 import ScrollReveal from "scrollreveal";
+import video from "../imgs/video_2023-12-22_14-03-16.mp4";
 import Typed from "react-typed";
 function Home() {
   ScrollReveal({
@@ -23,13 +24,6 @@ function Home() {
   ScrollReveal().reveal(" col-5 , .home-image", { origin: "bottom" });
   ScrollReveal().reveal(" .rev-left", { origin: "left" });
 
-  // const typed = new Typed(".multiple", {
-  //   strings: ["Frontend Developer", "Designer", "Blogger"],
-  //   typeSpeed: 100,
-  //   backDelay: 1000,
-  //   backSpeed: 100,
-  //   loop: true,
-  // });
 
 
 
@@ -76,6 +70,15 @@ function Home() {
             </div>
           </div>
         </div>
+
+                       {/* video */}
+                       
+      {/* <div className="video">
+
+       <video src={video} controls muted autoPlay></video>
+
+      </div> */}
+
       </div>
       <Footer />
     </>
