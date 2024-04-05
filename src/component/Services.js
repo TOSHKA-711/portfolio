@@ -3,6 +3,7 @@ import { BiCodeAlt } from "react-icons/bi";
 import { BiPaint } from "react-icons/bi";
 import { BiBarChartAlt } from "react-icons/bi";
 import ScrollReveal from 'scrollreveal'
+import Footer from "./footer/Footer";
 function Services() {
 
   ScrollReveal({
@@ -14,6 +15,7 @@ function Services() {
   
   ScrollReveal().reveal('.rev-top',{origin:'top'})
   ScrollReveal().reveal(' .rev-bot',{origin:'bottom'})
+
 
   return (
     <>
@@ -54,6 +56,7 @@ function Services() {
           </div>
         </div>
       </div>
+      <Footer />
     </>
   );
 }

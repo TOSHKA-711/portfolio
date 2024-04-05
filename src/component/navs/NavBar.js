@@ -31,6 +31,8 @@ export default function NavBar() {
   };
 
   return (
+    <>
+
     <div className="navbar">
       <div className="nav-container">
         <div className="logo">
@@ -80,6 +82,7 @@ export default function NavBar() {
           <a className="phone-icon" href="tel:+201021068752"><FaPhoneAlt /></a>
         </div>
       </div>
+    </div>
       <div className="nav-toggle-layer">
         <Link to="/" className="li nav1" onClick={handleClick} id="myButton">
           Home
@@ -117,6 +120,6 @@ export default function NavBar() {
           Contact
         </Link>
       </div>
-    </div>
+    </>
   );
 }

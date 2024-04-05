@@ -89,7 +89,8 @@ html {
   display: flex;
   align-items: center;
   justify-content: center;
-  padding: 4vh 0;flex-direction: column;
+  padding: 15vh 0 4vh;
+  flex-direction: column;
 }
 .text {
   display: flex;
@@ -207,12 +208,7 @@ html {
   justify-content: center;
 }
 
-/* computer */
-@media screen and (min-width: 1024px) {
-  .home {
-    padding: 4vh 0;
-  }
-}
+
 /* tablet */
 @media screen and (min-width: 767px) and (max-width: 1023px) {
   .home .container .parent {
@@ -350,6 +346,7 @@ html {
   display: flex;
   align-items: center !important;
   justify-content: center;
+  padding: 15vh 0 4vh;
 }
 .about .parent {
   display: flex;
@@ -406,11 +403,7 @@ html {
   box-shadow: 0 0 3rem var(--main-color);
 }
 
-@media screen and (min-width: 1024px) {
-  .about {
-    padding: 4vh 0;
-  }
-}
+
 /* tablet */
 @media screen and (min-width: 767px) and (max-width: 1023px) {
   .about .parent {
@@ -481,7 +474,7 @@ html {
   align-items: center !important;
   justify-content: center;
   flex-direction: column;
- padding: 5vh 0;
+ padding: 15vh 0 5vh;
 }
 .services h2 {
   font-size: 5rem;
@@ -579,7 +572,7 @@ html {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  padding-top: 5vh;
+  padding: 15vh 0 4vh;
 }
 
 .portfolio h2 {
@@ -689,15 +682,11 @@ html {
   color: var(--second-bg-color);
 }
 
-@media screen and (min-width: 1024px) {
-  .portfolio {
-    padding: 4vh 0;
-  }
-}
+
 /* tablet */
 @media screen and (min-width: 767px) and (max-width: 1023px) {
   .portfolio {
-    padding: 4vh 0;
+    padding: 15vh 0 4vh;
   }
   .ab .parent {
     display: flex;
@@ -722,7 +711,7 @@ html {
 /* mobile  */
 @media screen and (max-width: 767px) {
   .portfolio {
-    padding: 4vh 0;
+    padding: 15vh 0 4vh;
   }
   .foot {
     width: 100%;
@@ -761,7 +750,7 @@ html {
 .contact {
   background: var(--bg-color);
    width: 100vw;
-  padding-top: 10vh;
+   padding: 15vh 0 4vh;
 }
 
 .contact h2 {
@@ -843,11 +832,6 @@ form textarea {
   color: #0ef;
 }
 
-@media screen and (min-width: 1024px) {
-  .about {
-    padding: 4vh 0;
-  }
-}
 /* tablet */
 @media screen and (min-width: 767px) and (max-width: 1023px) {
   .about .parent {
@@ -872,6 +856,8 @@ form textarea {
   .foot {
     width: 100%;
   }
+  .contact form {
+    max-width: 85%;}
 }
 @media screen and (max-width: 499px) {
   form textarea {
@@ -882,10 +868,13 @@ form textarea {
     margin: inherit;
   }
   .contact {
-    padding: 4vh 0;
+    padding: 15vh 0 4vh;
     width: 100%;
     height: 100vh;
   }
+  .contact h2 {
+    font-size: 10vw;
+}
 
 }
 

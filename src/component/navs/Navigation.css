@@ -36,6 +36,8 @@ html {
   width: 100vw;
   position: static;
   position: relative;
+  z-index: 10;
+  position: fixed !important;
 }
 .navbar .nav-container {
   width: 90%;
@@ -122,10 +124,10 @@ color: #0ef;
   color: #0ef !important;
 }
 
-.navbar .nav-toggle-layer {
-  position: absolute;
+ .nav-toggle-layer {
+  position: fixed;
   background-color: #000;
-  top: 65px;
+  top: 0;
   left: 0;
   width: 0vw;
   height: 100vh;
@@ -142,11 +144,11 @@ color: #0ef;
   -o-transition: all 0.6s;
   gap: 2rem;
 }
-.navbar .nav-toggle-layer a {
+ .nav-toggle-layer a {
   font-size: 2.5rem !important;
   font-weight: bold;
   color: #fff;
 }
-.navbar .nav-toggle-layer a:hover {
+ .nav-toggle-layer a:hover {
   color: var(--main-color);
 }
