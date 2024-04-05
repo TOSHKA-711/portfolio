@@ -71,6 +71,7 @@ html {
   background-color: #fff;
 }
 
+
 /* --home-- */
 
 
@@ -264,6 +265,40 @@ html {
     width: 100%;
   }
 
+  @media screen and (max-width:578px) {
+    .home .home-image {
+      width: 80%;
+  }
+  .home .home-image img {
+    max-width: 100%;
+}
+.text h1 {
+  font-size: 4rem;
+  font-weight: 700;
+
+  }
+  .text h3 {
+    font-size: 3rem;
+    font-weight: 600;
+}
+.col {
+  flex: 1 0;
+  align-items: center;
+  text-align: center;
+}
+.parent p {
+  color: #fff;
+  font-size: 1.6rem;
+  width: 90%;
+  text-align: center;
+}
+.parent ul li a {
+  width: 3.5rem !important;
+  height: 3.5rem !important;
+  font-size: 18px !important;
+}
+}
+
 
 @media screen and (max-width: 465px) {
   .foot {
@@ -383,6 +418,7 @@ html {
     flex-direction: column !important ;
     justify-content: center;
     align-items: center;
+    margin-top: 2rem;
   }
 
   .about {
@@ -393,6 +429,32 @@ html {
 }
 
 /* mobile  */
+
+@media screen and (max-width:578px) {
+  .about-image {
+    width: 80%;
+}
+.about-image img {
+  max-width: 100%;
+}
+.about-text h1 {
+  font-size: 4rem;
+  font-weight: 700;
+
+  }
+  .about-text h3 {
+    font-size: 3rem;
+    font-weight: 600;
+}
+.about-text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+}
+
+
 @media screen and (max-width: 767px) {
   .about .parent {
     flex-direction: column !important ;
@@ -419,7 +481,7 @@ html {
   align-items: center !important;
   justify-content: center;
   flex-direction: column;
- padding-bottom: 5vh;
+ padding: 5vh 0;
 }
 .services h2 {
   font-size: 5rem;
@@ -499,10 +561,19 @@ html {
   box-shadow: 0 0 3rem var(--main-color);
 }
 
+@media screen and (max-width:578px) {
+  .child {
+    width: 80% ;
+    flex: none;
+  }
+  .services h2 {
+    font-size: 4rem;}
+}
+
 /* --portfolio-- */
 
 .portfolio {
-  background-color: var(--second-bg-color);
+  background-color: var(--bg-color);
   width: 100vw;
   display: flex;
   flex-direction: column;
@@ -524,7 +595,7 @@ html {
 .portfolio .container {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  align-items: center;
+  place-items: center;
   gap: 2.5rem;
 }
 
@@ -667,6 +738,17 @@ html {
     gap: 2.5rem;
   }
 }
+
+@media screen and (max-width:578px) {
+  .portfolio-box  {
+    width: 80% ;
+  
+  }
+  .portfolio h2 {
+    font-size: 4rem;
+  }
+}
+
 
 @media screen and (max-width:315px) {
   .portfolio {
