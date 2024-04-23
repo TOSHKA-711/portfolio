@@ -4,7 +4,7 @@
 /* eslint-disable jsx-a11y/anchor-is-valid */
 import React from "react";
 import { FaFacebookF } from "react-icons/fa";
-import { CiTwitter } from "react-icons/ci";
+import { FaGithub } from "react-icons/fa";
 import { BsInstagram } from "react-icons/bs";
 import { FaLinkedinIn } from "react-icons/fa";
 import image from "../imgs/Problem solving-bro2.png";
@@ -52,8 +52,8 @@ function Home() {
                 <a href="https://www.facebook.com/profile.php?id=100027173224339&mibextid=ZbWKwL" target="_blank">
                   <FaFacebookF />
                 </a>
-                <a href="https://twitter.com/aliovich711" target="_blank">
-                  <CiTwitter />
+                <a href="https://github.com/TOSHKA-711" target="_blank">
+                <FaGithub />
                 </a>
                 <a href="https://instagram.com/ali_toshka7?igshid=MzRlODBiNWFlZA==" target="_blank">
                   <BsInstagram />

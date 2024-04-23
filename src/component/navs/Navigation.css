@@ -44,10 +44,10 @@ html {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 1rem 0;
+  /* padding: 1rem 0; */
 }
 .navbar .nav-container .logo {
-  width: 15rem;
+  width: 6rem;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -105,7 +105,7 @@ color: #0ef;
 }
 @media screen and (max-width: 580px) {
   .navbar .nav-container .logo {
-    width: 30%;
+    width: 5rem;
   }
 
 

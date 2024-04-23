@@ -4,7 +4,7 @@
 import React from "react";
 import "./Footer.css"
 import { FaFacebookF } from "react-icons/fa";
-import { CiTwitter } from "react-icons/ci";
+import { FaGithub } from "react-icons/fa";
 import { BsYoutube } from "react-icons/bs";
 import {FaLinkedinIn  } from "react-icons/fa";
 import {BsInstagram } from "react-icons/bs";
@@ -21,8 +21,8 @@ const Footer = () => {
                 </a>
             </li>
             <li>
-            <a href="https://twitter.com/aliovich711" target="_blank">
-                  <CiTwitter />
+            <a href="https://github.com/TOSHKA-711" target="_blank">
+                <FaGithub />
                 </a>
             </li>
             <li>

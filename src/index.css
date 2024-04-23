@@ -859,6 +859,15 @@ form textarea {
   .contact form {
     max-width: 85%;}
 }
+@media screen and (max-width: 588px) {
+  .input-box input {
+    width: 75%;
+}
+.input-box {
+margin-bottom: 10px;
+}
+
+}
 @media screen and (max-width: 499px) {
   form textarea {
     resize: none;

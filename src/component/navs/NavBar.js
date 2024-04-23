@@ -1,8 +1,8 @@
 import React from "react";
 import { Outlet, Link } from "react-router-dom";
 import "./Navigation.css";
-import logo from "../../imgs/logo1.png";
-import { FaBars } from "react-icons/fa";
+import logo from "../../imgs/logo3.png";
+import { FaBarsStaggered } from "react-icons/fa6";
 import { FaXmark } from "react-icons/fa6";
 import { FaPhoneAlt } from "react-icons/fa";
 export default function NavBar() {
@@ -74,7 +74,7 @@ export default function NavBar() {
           >
             Contact
           </Link>
-          <FaBars className="bars-mark" onClick={handleBarsIcon} />
+          <FaBarsStaggered className="bars-mark" onClick={handleBarsIcon} />
           <FaXmark className="x-mark" onClick={handleXIcon} />
         </div>
         <div className="nav-phone">
