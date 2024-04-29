@@ -20,7 +20,7 @@ function Contact() {
         <h2 className="rev-top">
           Contact <span> Me!</span>
         </h2>
-        <form>
+        <form action="./action.php" method="post">
           <div className="input-box">
             <input type="text" placeholder="Full Name"></input>
             <input type="email" placeholder="Email address"></input>
