@@ -32,14 +32,14 @@ function Portfolio() {
         </h2>
         <div className="container port-container">
           <div className="portfolio-box">
-            <img src={photo6}></img>
+            <img src={photo2}></img>
             <div className="layer">
-              <h4>almentor</h4>
+              <h4>TASAMI</h4>
               <p>
                 Lorem ipsum dolor sit amet consectetur adipisicing elit.
                 Necessitatibus, odit!
               </p>
-              <a href="https://toshka-711.github.io/almentor/"  target="_blank">
+              <a href="https://toshka-711.github.io/TASAMI/" target="_blank">
                 <FaWpexplorer className="icon" />
               </a>
             </div>
@@ -58,15 +58,28 @@ function Portfolio() {
             </div>
           </div>
           <div className="portfolio-box">
-            <img src={photo1}></img>
+            <img src={photo6}></img>
             <div className="layer">
-              <h4>LEON template</h4>
+              <h4>almentor</h4>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Necessitatibus, odit!
+              </p>
+              <a href="https://toshka-711.github.io/almentor/"  target="_blank">
+                <FaWpexplorer className="icon" />
+              </a>
+            </div>
+          </div>
+          <div className="portfolio-box">
+            <img src={photo4}></img>
+            <div className="layer">
+              <h4>MatrixG</h4>
               <p>
                 Lorem ipsum dolor sit amet consectetur adipisicing elit.
                 Necessitatibus, odit!
               </p>
               <a
-                href="https://toshka-711.github.io/leon-template/"
+                href="https://toshka-711.github.io/MatrixG/"
                 target="_blank"
               >
                 <FaWpexplorer className="icon" />
@@ -87,35 +100,22 @@ function Portfolio() {
             </div>
           </div>
           <div className="portfolio-box">
-            <img src={photo2}></img>
+            <img src={photo1}></img>
             <div className="layer">
-              <h4>FOODERA template</h4>
-              <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Necessitatibus, odit!
-              </p>
-              <a href="https://toshka-711.github.io/foodera/" target="_blank">
-                <FaWpexplorer className="icon" />
-              </a>
-            </div>
-          </div>
-         
-          <div className="portfolio-box">
-            <img src={photo4}></img>
-            <div className="layer">
-              <h4>CALCULATOR</h4>
+              <h4>LEON template</h4>
               <p>
                 Lorem ipsum dolor sit amet consectetur adipisicing elit.
                 Necessitatibus, odit!
               </p>
               <a
-                href="https://toshka-711.github.io/calculator/"
+                href="https://toshka-711.github.io/leon-template/"
                 target="_blank"
               >
                 <FaWpexplorer className="icon" />
               </a>
             </div>
           </div>
+         
         </div>
       </div>
       {/* <div className="space"></div> */}
