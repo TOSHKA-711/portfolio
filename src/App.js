@@ -15,7 +15,7 @@ function App() {
         {/* <Navigation /> */}
         <NavBar/>
         <Routes>
-          <Route path="/" exact  element={<Home />} /> {/* Home as the default route */}
+          <Route path="/" exact index element={<Home />} /> 
           {/* <Route path="/" element={<Navigation />}> */}
             <Route path="about" element={<About />} />
             <Route path="services" element={<Services />} />
