@@ -24,18 +24,12 @@ function Home() {
   ScrollReveal().reveal(" col-5 , .home-image", { origin: "bottom" });
   ScrollReveal().reveal(" .rev-left", { origin: "left" });
 
-
-
-
-
   return (
     <>
       <div className="home">
         <div className="container">
           <div className="row parent">
             <div className="col  text home-text">
-          
-              
               <h3>Hello,It's Me</h3>
               <h1 className="rev-left">Ali Mostafa</h1>
               <h3 className="multiple">
@@ -44,41 +38,58 @@ function Home() {
               </h3>
               <p>
                 {" "}
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Asperiores, saepe illum? Optio nam omnis numquam sint
-                accusantium eos veniam obcaecati?
+                i am a highly motivated and skilled Frontend Developer with a
+                strong focus on ReactJS and modern web development technologies.
+                With extensive experience in creating responsive, user-friendly
+                web applications, I specialize in using GSAP for advanced
+                animations, Swiper for sliders, and optimizing performance using
+                tools like Vite. I am passionate about crafting intuitive user
+                interfaces and delivering efficient, scalable solutions.
+                Currently, I am proficient in deploying React applications on
+                GitHub Pages and have a solid understanding of JavaScript, HTML,
+                CSS, and various animation libraries.
               </p>
               <div className="icons">
-                <a href="https://www.facebook.com/profile.php?id=100027173224339&mibextid=ZbWKwL" target="_blank">
+                <a
+                  href="https://www.facebook.com/profile.php?id=100027173224339&mibextid=ZbWKwL"
+                  target="_blank"
+                >
                   <FaFacebookF />
                 </a>
                 <a href="https://github.com/TOSHKA-711" target="_blank">
-                <FaGithub />
+                  <FaGithub />
                 </a>
-                <a href="https://instagram.com/ali_toshka7?igshid=MzRlODBiNWFlZA==" target="_blank">
+                <a
+                  href="https://instagram.com/ali_toshka7?igshid=MzRlODBiNWFlZA=="
+                  target="_blank"
+                >
                   <BsInstagram />
                 </a>
-                <a href="https://www.linkedin.com/in/ali-eldin-mostafa-a3a8b628b" target="_blank">
+                <a
+                  href="https://www.linkedin.com/in/ali-eldin-mostafa-a3a8b628b"
+                  target="_blank"
+                >
                   <FaLinkedinIn />
                 </a>
               </div>
-              <button className="btn download" >Download Cv</button>
+              <a href="https://drive.google.com/file/d/1CTfHxjP0saY1K542ofRAU9LEt2SHw-5q/view?usp=sharing" target="_blank">
+                <button className="btn download">Download Cv</button>
+              </a>
             </div>
-         
+
             <div className="col col-5 home-image">
               <img src={image}></img>
             </div>
           </div>
         </div>
 
-                       {/* video */}
-                       
-      {/* <div className="video">
+        {/* video */}
+
+        {/* <div className="video">
 
        <video src={video} controls muted autoPlay></video>
 
       </div> */}
-
       </div>
       <Footer />
     </>

@@ -13,6 +13,7 @@
   text-decoration: none;
   font-family: "poppins", sans-serif;
   scroll-behavior: smooth;
+  
 }
 body {
   position: relative;
@@ -24,6 +25,10 @@ html {
   overflow-x: hidden;
   background-color: #1f242d;
   color: var(--text-color);
+}
+a{
+  color: var(--text-color);
+  text-decoration: none !important;
 }
 
 /* start nav */
@@ -38,6 +43,7 @@ html {
   position: relative;
   z-index: 10;
   position: fixed !important;
+  padding: 15px 0 !important;
 }
 .navbar .nav-container {
   width: 90%;
@@ -47,26 +53,52 @@ html {
   /* padding: 1rem 0; */
 }
 .navbar .nav-container .logo {
-  width: 6rem;
+  /* width: 6rem; */
   display: flex;
   align-items: center;
   justify-content: center;
 }
-.navbar .nav-container .logo img {
+.navbar .nav-container .logo  a{
+ color: #fff !important;
+ font-size: 1.9rem !important;
+ font-weight: 600;
+ transition: all 0.3s ease-in-out;
+ -webkit-transition: all 0.3s ease-in-out;
+ -moz-transition: all 0.3s ease-in-out;
+ -ms-transition: all 0.3s ease-in-out;
+ -o-transition: all 0.3s ease-in-out;
+}
+.navbar .nav-container .logo  a:hover{
+scale: 1.05;
+}
+/* .navbar .nav-container .logo img {
   width: 100%;
   height: 100%;
   object-fit: cover;
-}
+} */
 .navbar .nav-container .nav-links {
   display: flex;
   align-items: center;
   justify-content: center;
   gap: 10px;
+
+}
+.navbar .nav-container .nav-links a{
+  transition: all 0.3s ease-in-out;
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  -ms-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
 }
 .navbar .nav-container .nav-phone .phone-num{
 color: var(--text-color);
 font-size: 20px;
 text-decoration: none;
+transition: all 0.3s ease-in-out;
+-webkit-transition: all 0.3s ease-in-out;
+-moz-transition: all 0.3s ease-in-out;
+-ms-transition: all 0.3s ease-in-out;
+-o-transition: all 0.3s ease-in-out;
 }
 .navbar .nav-container .nav-phone .phone-icon{
 display: none;
@@ -75,6 +107,7 @@ font-size: 25px;
 }
 .navbar .nav-container .nav-phone .phone-icon:hover , .navbar .nav-container .nav-phone .phone-num:hover {
 color: #0ef;
+
 }
 
 .bars-mark,
@@ -105,7 +138,7 @@ color: #0ef;
 }
 @media screen and (max-width: 580px) {
   .navbar .nav-container .logo {
-    width: 5rem;
+    /* width: 5rem; */
   }
 
 
@@ -122,6 +155,7 @@ color: #0ef;
 .navbar .nav-container .nav-links a:hover,
 .nav-phone:hover {
   color: #0ef !important;
+  scale: 1.03;
 }
 
  .nav-toggle-layer {

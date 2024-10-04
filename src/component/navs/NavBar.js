@@ -36,7 +36,8 @@ export default function NavBar() {
     <div className="navbar">
       <div className="nav-container">
         <div className="logo">
-          <img src={logo}></img>
+          {/* <img src={logo}></img> */}
+          <Link to="/">Portfolio. </Link>
         </div>
         <div className="nav-links">
           <Link to="/" className="li nav1" onClick={handleClick} id="myButton">
