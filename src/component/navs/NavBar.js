@@ -8,7 +8,7 @@ import { FaPhoneAlt } from "react-icons/fa";
 export default function NavBar() {
   let handleClick = (e) => {
     e.target.classList.toggle("active");
-    handleXIcon();
+
   };
 
   let handleBarsIcon = () => {
