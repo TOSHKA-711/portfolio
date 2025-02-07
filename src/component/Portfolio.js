@@ -69,6 +69,16 @@ function Portfolio() {
             </div>
           </div>
           <div className="portfolio-box">
+            <img src={photo6}></img>
+            <div className="layer">
+              <h4>Clinic Theme</h4>
+              <p>The project simulates a complete Clinic Theme</p>
+              <a href="https://clinic-theme.netlify.app/" target="_blank">
+                <FaWpexplorer className="icon" />
+              </a>
+            </div>
+          </div>
+          <div className="portfolio-box">
             <img src={photo2}></img>
             <div className="layer">
               <h4>Up-ToDo</h4>
