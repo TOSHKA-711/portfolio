@@ -1,9 +1,8 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.c7b71666.css",
-    "main.js": "/portfolio/static/js/main.f9851964.js",
+    "main.css": "/portfolio/static/css/main.2de02268.css",
+    "main.js": "/portfolio/static/js/main.84fa90b3.js",
     "static/js/787.1ed0c42c.chunk.js": "/portfolio/static/js/787.1ed0c42c.chunk.js",
-    "static/media/video_2023-12-22_14-03-16.mp4": "/portfolio/static/media/video_2023-12-22_14-03-16.5a15b3ef92aceaf5c10e.mp4",
     "static/media/Problem solving-bro2.png": "/portfolio/static/media/Problem solving-bro2.14e26598e69741178e4e.png",
     "static/media/Questions-bro.png": "/portfolio/static/media/Questions-bro.cfd4bbd5ba75aaa17129.png",
     "static/media/portfolio3.jpg": "/portfolio/static/media/portfolio3.8186df376b322a283488.jpg",
@@ -14,12 +13,12 @@
     "static/media/portfolio1.jpg": "/portfolio/static/media/portfolio1.b65d3404bdcc4ee8a852.jpg",
     "static/media/logo3.png": "/portfolio/static/media/logo3.68cb8c0eb61ceed9649a.png",
     "index.html": "/portfolio/index.html",
-    "main.c7b71666.css.map": "/portfolio/static/css/main.c7b71666.css.map",
-    "main.f9851964.js.map": "/portfolio/static/js/main.f9851964.js.map",
+    "main.2de02268.css.map": "/portfolio/static/css/main.2de02268.css.map",
+    "main.84fa90b3.js.map": "/portfolio/static/js/main.84fa90b3.js.map",
     "787.1ed0c42c.chunk.js.map": "/portfolio/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.c7b71666.css",
-    "static/js/main.f9851964.js"
+    "static/css/main.2de02268.css",
+    "static/js/main.84fa90b3.js"
   ]
 }
