@@ -32,6 +32,19 @@ function Portfolio() {
         </h2>
         <div className="container port-container">
           <div className="portfolio-box">
+            <img src={photo5}></img>
+            <div className="layer">
+              <h4>Dashboard</h4>
+              <p>
+                This is a real control panel project for stadium reservation
+                management
+              </p>
+              <a href="https://yalla-dashboard.netlify.app/" target="_blank">
+                <FaWpexplorer className="icon" />
+              </a>
+            </div>
+          </div>
+          <div className="portfolio-box">
             <img src={photo1}></img>
             <div className="layer">
               <h4>E-commerce</h4>
@@ -51,6 +64,16 @@ function Portfolio() {
                 The project simulates a complete movies site bu using real Apis
               </p>
               <a href="https://toshka-711.github.io/movie/" target="_blank">
+                <FaWpexplorer className="icon" />
+              </a>
+            </div>
+          </div>
+          <div className="portfolio-box">
+            <img src={photo2}></img>
+            <div className="layer">
+              <h4>Up-ToDo</h4>
+              <p>The project simulates a complete Task Manager App</p>
+              <a href="https://uptodo-713.netlify.app/" target="_blank">
                 <FaWpexplorer className="icon" />
               </a>
             </div>

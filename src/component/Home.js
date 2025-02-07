@@ -10,8 +10,7 @@ import { FaLinkedinIn } from "react-icons/fa";
 import image from "../imgs/Problem solving-bro2.png";
 import Footer from "./footer/Footer";
 import ScrollReveal from "scrollreveal";
-import video from "../imgs/video_2023-12-22_14-03-16.mp4";
-import Typed from "react-typed";
+
 function Home() {
   ScrollReveal({
     reset: true,
@@ -72,7 +71,10 @@ function Home() {
                   <FaLinkedinIn />
                 </a>
               </div>
-              <a href="https://drive.google.com/file/d/1CTfHxjP0saY1K542ofRAU9LEt2SHw-5q/view?usp=sharing" target="_blank">
+              <a
+                href="https://drive.google.com/file/d/1x2OVh1putc037ghrOWevwdynbYJEY4ar/view?usp=drive_link"
+                target="_blank"
+              >
                 <button className="btn download">Download Cv</button>
               </a>
             </div>
@@ -82,14 +84,6 @@ function Home() {
             </div>
           </div>
         </div>
-
-        {/* video */}
-
-        {/* <div className="video">
-
-       <video src={video} controls muted autoPlay></video>
-
-      </div> */}
       </div>
       <Footer />
     </>

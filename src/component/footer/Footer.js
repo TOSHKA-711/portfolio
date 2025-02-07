@@ -41,7 +41,7 @@ const Footer = () => {
                 </a>
             </li>
           </ul>
-          <p> ©2023 All rights reserved. Created by T0SHKA</p>
+          <p> ©2023 All rights reserved. Created by Ali_Mostafa</p>
         </div>
       </div>
     </div>

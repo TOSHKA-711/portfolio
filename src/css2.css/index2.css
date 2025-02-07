@@ -74,8 +74,7 @@ html {
 /* --home-- */
 
 .home {
-  /* height: 90vh; */
-  /* max-height: 100vh; */
+  min-height: 80vh;
   width: 100vw;
   background-color: var(--bg-color);
   color: var(--text-color);
@@ -307,6 +306,7 @@ html {
   display: flex;
   align-items: center !important;
   justify-content: center;
+  min-height: 80vh;
 }
 .about .parent {
   display: flex;
@@ -411,7 +411,7 @@ html {
   align-items: center !important;
   justify-content: center;
   flex-direction: column;
-  /* height: 90vh; */
+  min-height: 80vh;
 }
 .services h2 {
   font-size: 5rem;
@@ -501,6 +501,7 @@ html {
   align-items: center;
   justify-content: center;
   padding-top: 5vh;
+  min-height: 80vh;
 }
 
 .portfolio h2 {
@@ -668,6 +669,7 @@ html {
   font-size: 5rem;
   font-weight: 700;
   letter-spacing: 0.2rem;
+  min-height: 80vh;
 }
 
 .contact h2 span {
@@ -849,4 +851,11 @@ form textarea {
 .parent p {
   color: #fff;
   font-size: 1.6rem;
+}
+
+
+@media screen and (min-width:1020px) {
+  .foot{
+
+  }
 }

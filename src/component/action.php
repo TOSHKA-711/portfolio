@@ -1,20 +1,29 @@
 <?php
 
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
-    $name = $_POST["name"];
-    $email = $_POST["email"];
-    $message = $_POST["message"];
+    $name = htmlspecialchars(strip_tags($_POST["name"]));
+    $email = filter_var($_POST["email"], FILTER_SANITIZE_EMAIL);
+    $mobile = htmlspecialchars(strip_tags($_POST["mobile"]));
+    $subject = htmlspecialchars(strip_tags($_POST["subject"]));
+    $message = htmlspecialchars(strip_tags($_POST["message"]));
 
-    // Email information
-    $to = "aliovich711@gmail.com"; // Change this to your email address
-    $subject = "New Contact Form portfolio";
-    $body = "Name: $name\nEmail: $email\nMessage: $message";
+    if (!filter_var($email, FILTER_VALIDATE_EMAIL)) {
+        echo json_encode(["status" => "error", "message" => "Invalid email format"]);
+        exit;
+    }
 
-    // Send email
-    if (mail($to, $subject, $body)) {
-        echo "Your message has been sent successfully!";
+    $to = "aliovich711@gmail.com"; // البريد الإلكتروني الذي ستستقبل عليه الرسائل
+    $email_subject = "New Contact Form Message: $subject";
+    $body = "Name: $name\nEmail: $email\nMobile: $mobile\n\nMessage:\n$message";
+
+    $headers = "From: $email\r\n";
+    $headers .= "Reply-To: $email\r\n";
+    $headers .= "Content-Type: text/plain; charset=UTF-8\r\n";
+
+    if (mail($to, $email_subject, $body, $headers)) {
+        echo json_encode(["status" => "success", "message" => "Your message has been sent successfully!"]);
     } else {
-        echo "Oops! Something went wrong.";
+        echo json_encode(["status" => "error", "message" => "Oops! Something went wrong."]);
     }
 }
 

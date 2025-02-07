@@ -26,10 +26,13 @@ function About() {
             </h1>
             <h3>Frontend Developer</h3>
             <p className="rev-bot">
-              Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-              Consequatur laboriosam sequi assumenda voluptates aliquam
-              eligendi, mollitia illum cumque error reiciendis. Eius, nesciunt!
-              Labore, dignissimos harum quo blanditiis commodi fugit error?
+              I am a Frontend Developer with over a year of experience. I have
+              worked remotely for two companies and have also gained valuable
+              experience as a freelancer. I specialize in building interactive
+              and modern user interfaces using React.js, and I am proficient in
+              technologies like Next.js, TypeScript, and Tailwind CSS. I am
+              always eager to enhance my skills and create seamless,
+              user-friendly experiences.
             </p>
             <button className="rev-bot">Read More</button>
           </div>

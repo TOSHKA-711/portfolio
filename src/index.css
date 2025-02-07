@@ -71,16 +71,9 @@ html {
   background-color: #fff;
 }
 
-
 /* --home-- */
 
-
-
-
-
 .home {
-
-
   /* height: 90vh; */
   /* max-height: 100vh; */
   width: 100vw;
@@ -178,7 +171,6 @@ html {
   -webkit-animation: floatImage 4s infinite ease-in-out;
 }
 
-
 @keyframes floatImage {
   0% {
     transform: translateY(0);
@@ -208,7 +200,6 @@ html {
   justify-content: center;
 }
 
-
 /* tablet */
 @media screen and (min-width: 767px) and (max-width: 1023px) {
   .home .container .parent {
@@ -228,7 +219,6 @@ html {
     justify-content: center;
     align-items: center;
   }
-
 }
 
 /* mobile  */
@@ -251,50 +241,47 @@ html {
     align-items: center;
   }
 
-   .home-text{
-    width: 100%;
-   }
-  
-}
-
-  #navbar {
+  .home-text {
     width: 100%;
   }
+}
 
-  @media screen and (max-width:578px) {
-    .home .home-image {
-      width: 80%;
+#navbar {
+  width: 100%;
+}
+
+@media screen and (max-width: 578px) {
+  .home .home-image {
+    width: 80%;
   }
   .home .home-image img {
     max-width: 100%;
-}
-.text h1 {
-  font-size: 4rem;
-  font-weight: 700;
-
+  }
+  .text h1 {
+    font-size: 4rem;
+    font-weight: 700;
   }
   .text h3 {
     font-size: 3rem;
     font-weight: 600;
+  }
+  .col {
+    flex: 1 0;
+    align-items: center;
+    text-align: center;
+  }
+  .parent p {
+    color: #fff;
+    font-size: 1.6rem;
+    width: 90%;
+    text-align: center;
+  }
+  .parent ul li a {
+    width: 3.5rem !important;
+    height: 3.5rem !important;
+    font-size: 18px !important;
+  }
 }
-.col {
-  flex: 1 0;
-  align-items: center;
-  text-align: center;
-}
-.parent p {
-  color: #fff;
-  font-size: 1.6rem;
-  width: 90%;
-  text-align: center;
-}
-.parent ul li a {
-  width: 3.5rem !important;
-  height: 3.5rem !important;
-  font-size: 18px !important;
-}
-}
-
 
 @media screen and (max-width: 465px) {
   .foot {
@@ -307,7 +294,7 @@ html {
   }
 }
 
-@media screen and (max-width:470px) {
+@media screen and (max-width: 470px) {
   .multiple-text::before {
     animation: none;
     -webkit-animation: none;
@@ -404,7 +391,6 @@ html {
   box-shadow: 0 0 3rem var(--main-color);
 }
 
-
 /* tablet */
 @media screen and (min-width: 767px) and (max-width: 1023px) {
   .about .parent {
@@ -424,30 +410,28 @@ html {
 
 /* mobile  */
 
-@media screen and (max-width:578px) {
+@media screen and (max-width: 578px) {
   .about-image {
     width: 80%;
-}
-.about-image img {
-  max-width: 100%;
-}
-.about-text h1 {
-  font-size: 4rem;
-  font-weight: 700;
-
+  }
+  .about-image img {
+    max-width: 100%;
+  }
+  .about-text h1 {
+    font-size: 4rem;
+    font-weight: 700;
   }
   .about-text h3 {
     font-size: 3rem;
     font-weight: 600;
+  }
+  .about-text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
 }
-.about-text {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-}
-}
-
 
 @media screen and (max-width: 767px) {
   .about .parent {
@@ -475,7 +459,7 @@ html {
   align-items: center !important;
   justify-content: center;
   flex-direction: column;
- padding: 15vh 0 5vh;
+  padding: 15vh 0 5vh;
 }
 .services h2 {
   font-size: 5rem;
@@ -555,13 +539,14 @@ html {
   box-shadow: 0 0 3rem var(--main-color);
 }
 
-@media screen and (max-width:578px) {
+@media screen and (max-width: 578px) {
   .child {
-    width: 80% ;
+    width: 80%;
     flex: none;
   }
   .services h2 {
-    font-size: 4rem;}
+    font-size: 4rem;
+  }
 }
 
 /* --portfolio-- */
@@ -683,7 +668,6 @@ html {
   color: var(--second-bg-color);
 }
 
-
 /* tablet */
 @media screen and (min-width: 767px) and (max-width: 1023px) {
   .portfolio {
@@ -706,7 +690,6 @@ html {
     grid-template-columns: repeat(2, 1fr);
     gap: 2.5rem;
   }
- 
 }
 
 /* mobile  */
@@ -729,18 +712,16 @@ html {
   }
 }
 
-@media screen and (max-width:578px) {
-  .portfolio-box  {
-    width: 80% ;
-  
+@media screen and (max-width: 578px) {
+  .portfolio-box {
+    width: 80%;
   }
   .portfolio h2 {
     font-size: 4rem;
   }
 }
 
-
-@media screen and (max-width:315px) {
+@media screen and (max-width: 315px) {
   .portfolio {
     width: 100%;
   }
@@ -750,8 +731,8 @@ html {
 
 .contact {
   background: var(--bg-color);
-   width: 100vw;
-   padding: 15vh 0 4vh;
+  width: 100vw;
+  padding: 15vh 0 4vh;
 }
 
 .contact h2 {
@@ -858,16 +839,16 @@ form textarea {
     width: 100%;
   }
   .contact form {
-    max-width: 85%;}
+    max-width: 85%;
+  }
 }
 @media screen and (max-width: 588px) {
   .input-box input {
     width: 75%;
-}
-.input-box {
-margin-bottom: 10px;
-}
-
+  }
+  .input-box {
+    margin-bottom: 10px;
+  }
 }
 @media screen and (max-width: 499px) {
   form textarea {
@@ -884,10 +865,8 @@ margin-bottom: 10px;
   }
   .contact h2 {
     font-size: 10vw;
+  }
 }
-
-}
-
 
 /* --footer-- */
 
@@ -901,7 +880,7 @@ margin-bottom: 10px;
   align-items: center;
 }
 
-.parent ul li a{
+.parent ul li a {
   width: 4rem;
   height: 4rem;
   background: transparent;
@@ -923,7 +902,7 @@ margin-bottom: 10px;
   -ms-transition: 0.5s ease;
   -o-transition: 0.5s ease;
 }
-.parent ul li:hover a{
+.parent ul li:hover a {
   background-color: var(--main-color);
   color: var(--second-bg-color);
   box-shadow: 0 0 1rem var(--main-color);
@@ -958,10 +937,6 @@ margin-bottom: 10px;
   font-size: 1.6rem;
 }
 
-
-
-
-
 /* Style for the video container */
 .video {
   width: 100%; /* Adjust the width as needed */
@@ -976,4 +951,14 @@ margin-bottom: 10px;
   border-radius: 8px; /* Add rounded corners to the video */
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); /* Add a shadow effect */
   height: 36rem;
+}
+
+/* -------------- */
+@media screen and (min-width: 1020px) {
+  .home,
+  .about,
+  .services,
+  .contact {
+    min-height: 80vh;
+  }
 }

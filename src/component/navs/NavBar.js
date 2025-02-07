@@ -8,14 +8,15 @@ import { FaPhoneAlt } from "react-icons/fa";
 export default function NavBar() {
   let handleClick = (e) => {
     e.target.classList.toggle("active");
+    handleXIcon();
   };
 
   let handleBarsIcon = () => {
     const barsIcon = document.querySelector(".bars-mark");
     const xIcon = document.querySelector(".x-mark");
     const toggleLayer = document.querySelector(`.nav-toggle-layer`);
-    toggleLayer.style.width = "50vw";
-    toggleLayer.style.opacity = ".8";
+    toggleLayer.style.width = "100vw";
+    toggleLayer.style.opacity = ".9";
     barsIcon.style.display = "none";
     xIcon.style.display = "flex";
   };
@@ -37,13 +38,16 @@ export default function NavBar() {
       <div className="nav-container">
         <div className="logo">
           {/* <img src={logo}></img> */}
-          <Link to="/">Portfolio. </Link>
+          <Link
+           to="/">Portfolio. </Link>
         </div>
         <div className="nav-links">
-          <Link to="/" className="li nav1" onClick={handleClick} id="myButton">
+          <Link
+           to="/" className="li nav1" onClick={handleClick} id="myButton">
             Home
           </Link>
           <Link
+          
             to="/about"
             className="li nav2"
             onClick={handleClick}
@@ -52,6 +56,7 @@ export default function NavBar() {
             About
           </Link>
           <Link
+          
             to="/services"
             className="li nav3"
             onClick={handleClick}
@@ -60,6 +65,7 @@ export default function NavBar() {
             Services
           </Link>
           <Link
+          
             to="/portfolio"
             className="li nav4"
             onClick={handleClick}
@@ -68,6 +74,7 @@ export default function NavBar() {
             Portfolio
           </Link>
           <Link
+          
             to="/contact"
             className="li nav5"
             onClick={handleClick}
@@ -85,10 +92,12 @@ export default function NavBar() {
       </div>
     </div>
       <div className="nav-toggle-layer">
-        <Link to="/" className="li nav1" onClick={handleClick} id="myButton">
+        <Link
+         to="/" className="li nav1" onClick={handleClick} id="myButton">
           Home
         </Link>
         <Link
+        
           to="/about"
           className="li nav2"
           onClick={handleClick}
@@ -97,6 +106,7 @@ export default function NavBar() {
           About
         </Link>
         <Link
+        
           to="/services"
           className="li nav3"
           onClick={handleClick}
@@ -105,6 +115,7 @@ export default function NavBar() {
           Services
         </Link>
         <Link
+        
           to="/portfolio"
           className="li nav4"
           onClick={handleClick}
@@ -113,6 +124,7 @@ export default function NavBar() {
           Portfolio
         </Link>
         <Link
+        
           to="/contact"
           className="li nav5"
           onClick={handleClick}
