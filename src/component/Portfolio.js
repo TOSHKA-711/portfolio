@@ -32,9 +32,23 @@ function Portfolio() {
         </h2>
         <div className="container port-container">
           <div className="portfolio-box">
+            <img src={photo6}></img>
+            <div className="layer">
+              <h4>Elfahem-edu Dashboard</h4>
+              <p>
+                A responsive and multilingual dashboard for managing courses,
+                departments, sessions, and student profiles in real-time.
+                login:admin@gmail.com / pass:123456
+              </p>
+              <a href="https://edu-dashboard-ebon.vercel.app/" target="_blank">
+                <FaWpexplorer className="icon" />
+              </a>
+            </div>
+          </div>
+          <div className="portfolio-box">
             <img src={photo5}></img>
             <div className="layer">
-              <h4>Dashboard</h4>
+              <h4>Yalla Dashboard</h4>
               <p>
                 This is a real control panel project for stadium reservation
                 management
