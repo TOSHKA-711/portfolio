@@ -72,7 +72,7 @@ function Home() {
                 </a>
               </div>
               <a
-                href="https://drive.google.com/file/d/1eLdSH_L04GY-OmC3nDarGbLvcAKMfHJO/view?usp=drivesdk"
+                href="https://drive.google.com/file/d/1rM-z_CxvrAV8Iw7ynWliHWKmybacd4Xj/view?usp=drivesdk"
                 target="_blank"
               >
                 <button className="btn download">Download Cv</button>
